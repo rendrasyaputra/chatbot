@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0"> 
+<category>
+        <pattern>AKREDITASI *</pattern>
+        <template>
+            <think> <set name="prodi"><star/></set></think>
+
+            <condition name="prodi" value = "informatika"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "teknik industri"> Akreditasi Program Studi <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "teknik kimia"> Akreditasi Program Studi <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "teknik elektro"> Akreditasi Program Studi <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "teknologi pangan"> Akreditasi Program Studi <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "ilmu komunikasi"> Akreditasi Program Studi <get name="prodi"/> adalah Baik Sekali.</condition>
+            <condition name="prodi" value = "sastra inggris"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "sastra indonesia"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "fisika"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "biologi"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "matematika"> Akreditasi Program Studi <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "sistem informasi"> Akreditasi Program Studi <get name="prodi"/> adalah Baik Sekali.</condition>
+            <condition name="prodi" value = "bimbingan dan konseling"> Akreditasi Program Studi <get name="prodi"/> adalah Unggul.</condition>
+            <condition name="prodi" value = "bahasa sastra indonesia"> Akreditasi Program Studi Pendidikan Bahasa dan Sastra Indonesia adalah A.</condition>
+            <condition name="prodi" value = "bahasa inggris"> Akreditasi Program Studi Pendidikan <get name="prodi"/> adalah Unggul.</condition>
+            <condition name="prodi" value = "fisika"> Akreditasi Program Studi Pendidikan <get name="prodi"/> adalah Unggul.</condition>
+            <condition name="prodi" value = "guru sekolah dasar"> Akreditasi Program Studi Pendidikan <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "paud"> Akreditasi Program Studi Pendidikan <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "pancasila kewarganegaraan"> Akreditasi Program Studi Pendidikan Pancasila dan Kewarganegaraan adalah A.</condition>
+            <condition name="prodi" value = "vokasional teknologi otomotif"> Akreditasi Program Studi Pendidikan <get name="prodi"/> adalah Baik.</condition>
+            <condition name="prodi" value = "vokasional teknologi elektronika"> Akreditasi Program Studi Pendidikan <get name="prodi"/> adalah Baik.</condition>
+            <condition name="prodi" value = "kesehatan masyarakat"> Akreditasi Program Studi <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "gizi"> Akreditasi Program Studi <get name="prodi"/> adalah C.</condition>
+            <condition name="prodi" value = "dokter"> Akreditasi Program Studi Ke<get name="program"/>an adalah B.</condition>
+            <condition name="prodi" value = "farmasi"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "psikologi"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "manajemen"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "ekonomi bangun"> Akreditasi Program Studi Ekonomi Pembangunan adalah B.</condition>
+            <condition name="prodi" value = "akuntansi"> Akreditasi Program Studi <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "bisnis jasa makan"> Akreditasi Program Studi Bisnis Jasa Makanan adalah B.</condition>
+            <condition name="prodi" value = "perbankan syariah"> Akreditasi Program Studi Perbankan Syariah Makanan adalah B.</condition>
+            <condition name="prodi" value = "agama islam"> Akreditasi Program Studi Pendidikan Agama Islam adalah A.</condition>
+            <condition name="prodi" value = "ilmu hadis"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "bahasa sastra arab"> Akreditasi Program Studi Bahasa dan Sastra Arab adalah A.</condition> 
+        </template>
+    </category>
+    <category>
+        <pattern>AKREDITASI PROGRAM STUDI *</pattern>
+        <template>
+            <think> <set name="prodi"><star/></set></think>
+
+            <condition name="prodi" value = "informatika"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "teknik industri"> Akreditasi Program Studi <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "teknik kimia"> Akreditasi Program Studi <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "teknik elektro"> Akreditasi Program Studi <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "teknologi pangan"> Akreditasi Program Studi <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "ilmu komunikasi"> Akreditasi Program Studi <get name="prodi"/> adalah Baik Sekali.</condition>
+            <condition name="prodi" value = "sastra inggris"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "sastra indonesia"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "fisika"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "biologi"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "matematika"> Akreditasi Program Studi <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "sistem informasi"> Akreditasi Program Studi <get name="prodi"/> adalah Baik Sekali.</condition>
+            <condition name="prodi" value = "bimbingan dan konseling"> Akreditasi Program Studi <get name="prodi"/> adalah Unggul.</condition>
+            <condition name="prodi" value = "bahasa sastra indonesia"> Akreditasi Program Studi Pendidikan Bahasa dan Sastra Indonesia adalah A.</condition>
+            <condition name="prodi" value = "bahasa inggris"> Akreditasi Program Studi Pendidikan <get name="prodi"/> adalah Unggul.</condition>
+            <condition name="prodi" value = "fisika"> Akreditasi Program Studi Pendidikan <get name="prodi"/> adalah Unggul.</condition>
+            <condition name="prodi" value = "guru sekolah dasar"> Akreditasi Program Studi Pendidikan <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "paud"> Akreditasi Program Studi Pendidikan <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "pancasila kewarganegaraan"> Akreditasi Program Studi Pendidikan Pancasila dan Kewarganegaraan adalah A.</condition>
+            <condition name="prodi" value = "vokasional teknologi otomotif"> Akreditasi Program Studi Pendidikan <get name="prodi"/> adalah Baik.</condition>
+            <condition name="prodi" value = "vokasional teknologi elektronika"> Akreditasi Program Studi Pendidikan <get name="prodi"/> adalah Baik.</condition>
+            <condition name="prodi" value = "kesehatan masyarakat"> Akreditasi Program Studi <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "gizi"> Akreditasi Program Studi <get name="prodi"/> adalah C.</condition>
+            <condition name="prodi" value = "dokter"> Akreditasi Program Studi Ke<get name="program"/>an adalah B.</condition>
+            <condition name="prodi" value = "farmasi"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "psikologi"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "manajemen"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "ekonomi bangun"> Akreditasi Program Studi Ekonomi Pembangunan adalah B.</condition>
+            <condition name="prodi" value = "akuntansi"> Akreditasi Program Studi <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "bisnis jasa makan"> Akreditasi Program Studi Bisnis Jasa Makanan adalah B.</condition>
+            <condition name="prodi" value = "perbankan syariah"> Akreditasi Program Studi Perbankan Syariah Makanan adalah B.</condition>
+            <condition name="prodi" value = "agama islam"> Akreditasi Program Studi Pendidikan Agama Islam adalah A.</condition>
+            <condition name="prodi" value = "ilmu hadis"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "bahasa sastra arab"> Akreditasi Program Studi Bahasa dan Sastra Arab adalah A.</condition> 
+        </template>
+    </category>
+    <category>
+        <pattern>AKREDITASI PRODI *</pattern>
+        <template>
+            <think> <set name="prodi"><star/></set></think>
+
+            <condition name="prodi" value = "informatika"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "teknik industri"> Akreditasi Program Studi <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "teknik kimia"> Akreditasi Program Studi <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "teknik elektro"> Akreditasi Program Studi <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "teknologi pangan"> Akreditasi Program Studi <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "ilmu komunikasi"> Akreditasi Program Studi <get name="prodi"/> adalah Baik Sekali.</condition>
+            <condition name="prodi" value = "sastra inggris"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "sastra indonesia"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "fisika"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "biologi"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "matematika"> Akreditasi Program Studi <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "sistem informasi"> Akreditasi Program Studi <get name="prodi"/> adalah Baik Sekali.</condition>
+            <condition name="prodi" value = "bimbingan dan konseling"> Akreditasi Program Studi <get name="prodi"/> adalah Unggul.</condition>
+            <condition name="prodi" value = "bahasa sastra indonesia"> Akreditasi Program Studi Pendidikan Bahasa dan Sastra Indonesia adalah A.</condition>
+            <condition name="prodi" value = "bahasa inggris"> Akreditasi Program Studi Pendidikan <get name="prodi"/> adalah Unggul.</condition>
+            <condition name="prodi" value = "fisika"> Akreditasi Program Studi Pendidikan <get name="prodi"/> adalah Unggul.</condition>
+            <condition name="prodi" value = "guru sekolah dasar"> Akreditasi Program Studi Pendidikan <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "paud"> Akreditasi Program Studi Pendidikan <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "pancasila kewarganegaraan"> Akreditasi Program Studi Pendidikan Pancasila dan Kewarganegaraan adalah A.</condition>
+            <condition name="prodi" value = "vokasional teknologi otomotif"> Akreditasi Program Studi Pendidikan <get name="prodi"/> adalah Baik.</condition>
+            <condition name="prodi" value = "vokasional teknologi elektronika"> Akreditasi Program Studi Pendidikan <get name="prodi"/> adalah Baik.</condition>
+            <condition name="prodi" value = "sehat masyarakat"> Akreditasi Program Studi <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "gizi"> Akreditasi Program Studi <get name="prodi"/> adalah C.</condition>
+            <condition name="prodi" value = "dokter"> Akreditasi Program Studi Ke<get name="prodi"/>an adalah B.</condition>
+            <condition name="prodi" value = "farmasi"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "psikologi"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "manajemen"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "ekonomi bangun"> Akreditasi Program Studi Ekonomi Pembangunan adalah B.</condition>
+            <condition name="prodi" value = "akuntansi"> Akreditasi Program Studi <get name="prodi"/> adalah B.</condition>
+            <condition name="prodi" value = "bisnis jasa makan"> Akreditasi Program Studi Bisnis Jasa Makanan adalah B.</condition>
+            <condition name="prodi" value = "perbankan syariah"> Akreditasi Program Studi Perbankan Syariah Makanan adalah B.</condition>
+            <condition name="prodi" value = "agama islam"> Akreditasi Program Studi Pendidikan Agama Islam adalah A.</condition>
+            <condition name="prodi" value = "ilmu hadis"> Akreditasi Program Studi <get name="prodi"/> adalah A.</condition>
+            <condition name="prodi" value = "bahasa sastra arab"> Akreditasi Program Studi Bahasa dan Sastra Arab adalah A.</condition> 
+        </template>
+    </category>
+    <category>
+        <pattern>PROGRAM STUDI *</pattern>
+        <template>
+            <think> <set name="program"><star/></set></think>
+            
+            <condition name="program" value = "informatika"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "teknik industri"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "teknik kimia"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "teknik elektro"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "teknologi pangan"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "ilmu komunikasi"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "sastra inggris"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "sastra indonesia"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "fisika"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "biologi"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "matematika"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "sistem informasi"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "konseling"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "bahasa sastra indonesia"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi Pendidikan <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "bahasa inggris"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi Pendidikan <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "guru sekolah dasar"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi Pendidikan<get name="program"/> adalah A.</condition>
+            <condition name="program" value = "paud"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi Pendidikan <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "pancasia kewarganegaraan"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi Pendidikan <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "vokasional teknologi otomotif"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi Pendidikan <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "vokasional teknologi elektronika"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi Pendidikan <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "sehat masyarakat"> Program studi kesehatan masyarakat tersedia di UAD, dan akreditasi untuk program studi kesehatan masyarakat adalah A.</condition>
+            <condition name="program" value = "gizi"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "dokter"> Program studi Ke<get name="program"/>an tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "psikologi"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "manajemen"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "ekonomi bangun"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "akuntansi"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "bisnis jasa makanan"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "perbankan syariah"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "ilmu hadis"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "bahasa sastra arab"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+        </template>
+    </category>
+    <category>
+        <pattern>PRODI *</pattern>
+        <template>
+            <think> <set name="program"><star/></set></think>
+
+            <condition name="program" value = "informatika"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "teknik industri"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "teknik kimia"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "teknik elektro"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "teknologi pangan"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "ilmu komunikasi"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "sastra inggris"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "sastra indonesia"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "fisika"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "biologi"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "matematika"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "sistem informasi"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "konseling"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "bahasa sastra indonesia"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi Pendidikan <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "bahasa inggris"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi Pendidikan <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "guru sekolah dasar"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi Pendidikan<get name="program"/> adalah A.</condition>
+            <condition name="program" value = "paud"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi Pendidikan <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "pancasia kewarganegaraan"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi Pendidikan <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "vokasional teknologi otomotif"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi Pendidikan <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "vokasional teknologi elektronika"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi Pendidikan <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "sehat masyarakat"> Program studi kesehatan masyarakat tersedia di UAD, dan akreditasi untuk program studi kesehatan masyarakat adalah A.</condition>
+            <condition name="program" value = "gizi"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "dokter"> Program studi Ke<get name="program"/>an tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "psikologi"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "manajemen"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "ekonomi bangun"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "akuntansi"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "bisnis jasa makanan"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "perbankan syariah"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "ilmu hadis"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "bahasa sastra arab"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+        </template>
+    </category>
+    <category>
+        <pattern>JURUS *</pattern>
+        <template>
+            <think> <set name="program"><star/></set></think>
+
+            <condition name="program" value = "informatika"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "teknik industri"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "teknik kimia"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "teknik elektro"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "teknologi pangan"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "ilmu komunikasi"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "sastra inggris"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "sastra indonesia"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "fisika"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "biologi"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "matematika"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "sistem informasi"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "konseling"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "bahasa sastra indonesia"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi Pendidikan <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "bahasa inggris"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi Pendidikan <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "guru sekolah dasar"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi Pendidikan<get name="program"/> adalah A.</condition>
+            <condition name="program" value = "paud"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi Pendidikan <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "pancasia kewarganegaraan"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi Pendidikan <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "vokasional teknologi otomotif"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi Pendidikan <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "vokasional teknologi elektronika"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi Pendidikan <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "sehat masyarakat"> Program studi kesehatan masyarakat tersedia di UAD, dan akreditasi untuk program studi kesehatan masyarakat adalah A.</condition>
+            <condition name="program" value = "gizi"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "dokter"> Program studi Ke<get name="program"/>an tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "psikologi"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "manajemen"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "ekonomi bangun"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "akuntansi"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "bisnis jasa makanan"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "perbankan syariah"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "ilmu hadis"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+            <condition name="program" value = "bahasa sastra arab"> Program studi <get name="program"/> tersedia di UAD, dan akreditasi untuk program studi <get name="program"/> adalah A.</condition>
+        </template>
+    </category>
+    <category>
+        <pattern>PROGRAM STUDI STRATA 1 TERSEDIA</pattern>
+        <template>Program studi S1 yang tersedia di UAD dapat dilihat 
+        di ((a href="https://pmb.uad.ac.id/fakultas-dan-program-studi/" target="_blank"))https://pmb.uad.ac.id/fakultas-dan-program-studi/((/a))
+        </template>
+    </category>
+    <category>
+        <pattern>PROGRAM S1 TERSEDIA</pattern>
+        <template>Program studi S1 yang tersedia di UAD dapat dilihat 
+        di ((a href="https://pmb.uad.ac.id/fakultas-dan-program-studi/" target="_blank"))https://pmb.uad.ac.id/fakultas-dan-program-studi/((/a))
+        </template>
+    </category>
+    <category>
+        <pattern>PROGRAM PASCA SARJANA TERSEDIA</pattern>
+        <template>Program Pasca Sarjana yang tersedia di UAD dapat dilihat 
+        di ((a href="https://pmb.uad.ac.id/program-pascasarjana/" target="_blank"))https://pmb.uad.ac.id/program-pascasarjana/((/a))
+        </template>
+    </category>
+    <category>
+        <pattern>PROGRAM MAGISTER TERSEDIA</pattern>
+        <template>Program Pasca Sarjana yang tersedia di UAD dapat dilihat 
+        di ((a href="https://pmb.uad.ac.id/program-pascasarjana/" target="_blank"))https://pmb.uad.ac.id/program-pascasarjana/((/a))
+        </template>
+    </category>
+    <category>
+        <pattern>PROGRAM S2</pattern>
+        <template>Program Pasca Sarjana yang tersedia di UAD dapat dilihat 
+        di ((a href="https://pmb.uad.ac.id/program-pascasarjana/" target="_blank"))https://pmb.uad.ac.id/program-pascasarjana/((/a))
+        </template>
+    </category>
+    <category>
+        <pattern>PRODI TERSEDIA PROGRAM PASCA SARJANA</pattern>
+        <template>Program Pasca Sarjana yang tersedia di UAD dapat dilihat 
+        di ((a href="https://pmb.uad.ac.id/program-pascasarjana/" target="_blank"))https://pmb.uad.ac.id/program-pascasarjana/((/a))
+        </template>
+    </category>
+    <category>
+        <pattern>PRODI TERSEDIA S2</pattern>
+        <template>Program Pasca Sarjana yang tersedia di UAD dapat dilihat 
+        di ((a href="https://pmb.uad.ac.id/program-pascasarjana/" target="_blank"))https://pmb.uad.ac.id/program-pascasarjana/((/a))
+        </template>
+    </category>
+    <category>
+        <pattern>PRODI TERSEDIA PROGRAM MAGISTER</pattern>
+        <template>Program Pasca Sarjana yang tersedia di UAD dapat dilihat 
+        di ((a href="https://pmb.uad.ac.id/program-pascasarjana/" target="_blank"))https://pmb.uad.ac.id/program-pascasarjana/((/a))
+        </template>
+    </category>
+    <category>
+        <pattern>PROGRAM PROFESI TERSEDIA</pattern>
+        <template>Program profesi yang tersedia di UAD dapat dilihat 
+        di ((a href="https://pmb.uad.ac.id/program-studi-profesi/" target="_blank"))https://pmb.uad.ac.id/program-studi-profesi/((/a))
+        </template>
+    </category>
+    <category>
+        <pattern>PRODI PROGRAM PROFESI TERSEDIA</pattern>
+        <template>Program profesi yang tersedia di UAD dapat dilihat 
+        di ((a href="https://pmb.uad.ac.id/program-studi-profesi/" target="_blank"))https://pmb.uad.ac.id/program-studi-profesi/((/a))
+        </template>
+    </category>
+    <category>
+        <pattern>PRODI DAPAT PILIH</pattern>
+        <template>Prodi yang dapat dipilih saat mendaftar sebanyak 2 prodi, 
+        prodi pilihan 1 yang dijadikan prioritas dan prodi pilihan ke 2 yang 
+        dijadikan alternatif jika tidak diterima di prodi pilihan 1.
+        </template>
+    </category>
+    <category>
+        <pattern>PRODI BISA PILIH</pattern>
+        <template>Prodi yang dapat dipilih saat mendaftar sebanyak 2 prodi, 
+        prodi pilihan 1 yang dijadikan prioritas dan prodi pilihan ke 2 yang 
+        dijadikan alternatif jika tidak diterima di prodi pilihan 1.
+        </template>
+    </category>
+</aiml>

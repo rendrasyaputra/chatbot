@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>HALO PMB</pattern>
+        <template>
+            <random>
+                <li>Hai kak Ada yang bisa kami bantu ?</li>
+                <li>Halo!, aku dengan PMB BOT ada yang bisa di bantu ?</li>
+                <li>Halo kak, aku PMB BOT, ada yang bisa aku bantu ?</li>
+            </random>
+        </template>
+    </category>  
+    <category>
+        <pattern>NAMA *</pattern>
+        <template>hai kak <set name="username"><star index="1"/></set>, Selamat datang di PMB BOT, Ada yang bisa di bantu kak <get name="username"/>.?</template>
+    </category>
+    <category>
+        <pattern>HALO *</pattern>
+        <template>hai kak <set name="username"><star index="1"/></set>, Selamat datang di PMB BOT, Ada yang bisa di bantu kak <get name="username"/>.?</template>
+    </category>
+    <category>
+        <pattern>HAI *</pattern>
+        <template>halo kak <set name="username"><star index="1"/></set>, Selamat datang di PMB BOT, Ada yang bisa di bantu kak <get name="username"/>.?</template>
+    </category>
+    <category>
+        <pattern>ASSALAMUALAIKUM PMB</pattern>
+        <template>Wa'alaikumussalam Warahmatullahi Wabarakatuh, Ada yang bisa kami bantu kak <get name="username"/> ?</template>
+    </category>
+    <category>
+        <pattern>ASSALAMUALAIKUM</pattern>
+        <template>Wa'alaikumussalam Warahmatullahi Wabarakatuh, Ada yang bisa kami bantu kak <get name="username"/> ?</template>
+    </category>
+    <category>
+        <pattern>ASSALAMUALAIKUM *</pattern>
+        <template>Wa'alaikumussalam Warahmatullahi Wabarakatuh kak <set name="username"><star index="1"/></set>, Ada yang bisa kami bantu kak <get name="username"/> ?</template>
+    </category>
+    <category>
+        <pattern>ASSALAMUALAIKUM WARAHMATULLAHI WABARAKATUH</pattern>
+        <template>Wa'alaikumussalam Warahmatullahi Wabarakatuh, Ada yang bisa kami bantu kak <get name="username"/> ?</template>
+    </category>
+    <category>
+        <pattern>SELAMAT PAGI</pattern>
+        <template>Halo kak <get name="username"/>, Selamat Pagi ada yang bisa kami bantu ?</template>
+    </category>  
+    <category>
+        <pattern>PAGI</pattern>
+        <template>Halo kak <get name="username"/>, Selamat Pagi ada yang bisa kami bantu ?</template>
+    </category> 
+    <category>
+        <pattern>SELAMAT SIANG</pattern>
+        <template>Halo kak <get name="username"/>, Selamat Siang ada yang bisa kami bantu ?</template>
+    </category> 
+    <category>
+        <pattern>SIANG</pattern>
+        <template>Halo kak <get name="username"/>, Selamat Siang ada yang bisa kami bantu ?</template>
+    </category>
+    <category>
+        <pattern>SELAMAT SORE</pattern>
+        <template>Halo kak <get name="username"/>, Selamat Sore ada yang bisa kami bantu ?</template>
+    </category> 
+    <category>
+        <pattern>SORE</pattern>
+        <template>Halo kak <get name="username"/>, Selamat Sore ada yang bisa kami bantu ?</template>
+    </category>
+    <category>
+        <pattern>SELAMAT MALAM</pattern>
+        <template>Halo kak <get name="username"/>, Selamat Malam ada yang bisa kami bantu ?</template>
+    </category> 
+    <category>
+        <pattern>MALAM</pattern>
+        <template>Halo kak <get name="username"/>, Selamat Malam ada yang bisa kami bantu ?</template>
+    </category> 
+    <category>
+        <pattern>TERIMA KASIH INFORMASI</pattern>
+        <template>Sama-sama kak <get name="username"/> 😀, senang bisa membantu!</template>
+    </category>
+    <category>
+        <pattern>MAKASIH</pattern>
+        <template>Sama-sama kak <get name="username"/> 😀, senang bisa membantu!</template>
+    </category>
+</aiml>

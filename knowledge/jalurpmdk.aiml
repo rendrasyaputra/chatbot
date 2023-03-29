@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0"> 
+    <category>
+        <pattern>JALUR PMDK</pattern>
+        <template>Jalur PMDK merupakan jalur tanpa tes untuk program studi selain kedokteran, farmasi dan psikologi, 
+        yaitu dengan menggunakan nilai rapor/skl/skhun dan sertifikat  UTBK. ((br))
+        </template>
+    </category>
+    <category>
+        <pattern>SYARAT PMDK *</pattern>
+        <template>
+            <think> <set name="pmdk"><star/></set></think>
+
+            <condition name="pmdk" value = "rapor"> 
+            Jalur PMDK Rapor merupakan jalur tanpa tes untuk program studi selain kedokteran, farmasi dan psikologi, yaitu dengan menggunakan nilai rapor, berkas persyaratan jalur PMDK Rapor sebagai berikut : ((br))((br))
+            1. Pas foto berwarna berpakaian formal((br))
+            2. Kartu Keluarga((br))
+            3. Rapor Semester 2,3,4((br))
+            4. Bukti bayar pendaftaran((br))((br))
+            *persyaratan di atas silakan dilengkapi dan dikumpulkan di akun 
+            pmb online, yang dapat diakses di ((a href="https://pmb-online.uad.ac.id/index.php/login" target="_blank"))https://pmb-online.uad.ac.id/index.php/login((/a))
+            </condition> 
+            <condition name="pmdk" value = "skl"> 
+            Jalur PMDK SKL merupakan jalur tanpa tes untuk program studi selain kedokteran, farmasi dan psikologi, yaitu dengan menggunakan nilai SKL, berkas persyaratan jalur PMDK SKL sebagai berikut : ((br))((br))
+            1. Pas foto berwarna berpakaian formal((br))
+            2. Kartu Keluarga((br))
+            3. SKL((br))
+            4. Bukti bayar pendaftaran((br))((br))
+            *persyaratan di atas silakan dilengkapi dan dikumpulkan di akun
+            pmb online, yang dapat diakses di ((a href="https://pmb-online.uad.ac.id/index.php/login" target="_blank"))https://pmb-online.uad.ac.id/index.php/login((/a))
+            </condition> 
+            <condition name="pmdk" value = "utbk"> 
+            Jalur PMDK UTBK merupakan jalur tanpa tes untuk program studi selain kedokteran, farmasi dan psikologi, yaitu dengan menggunakan nilai sertifikat  UTBK, berkas persyaratan jalur PMDK UTBK sebagai berikut : ((br))((br))
+            1. Pas foto berwarna berpakaian formal((br))
+            2. Kartu Keluarga((br))
+            3. Sertif UTBK((br))
+            4. Bukti bayar pendaftaran((br))((br))
+            *persyaratan di atas silakan dilengkapi dan dikumpulkan di akun 
+             pmb online, yang dapat diakses di ((a href="https://pmb-online.uad.ac.id/index.php/login" target="_blank"))https://pmb-online.uad.ac.id/index.php/login((/a))
+            </condition>
+        </template>
+    </category>
+    <category>
+        <pattern>SYARAT DAFTAR JALUR PMDK *</pattern>
+        <template>
+            <think> <set name="pmdk"><star/></set></think>
+
+            <condition name="pmdk" value = "rapor"> 
+            Jalur PMDK Rapor merupakan jalur tanpa tes untuk program studi selain kedokteran, farmasi dan psikologi, yaitu dengan menggunakan nilai rapor, berkas persyaratan jalur PMDK Rapor sebagai berikut : ((br))((br))
+            1. Pas foto berwarna berpakaian formal((br))
+            2. Kartu Keluarga((br))
+            3. Rapor Semester 2,3,4((br))
+            4. Bukti bayar pendaftaran((br))((br))
+            *persyaratan di atas silakan dilengkapi dan dikumpulkan di akun 
+            pmb online, yang dapat diakses di ((a href="https://pmb-online.uad.ac.id/index.php/login" target="_blank"))https://pmb-online.uad.ac.id/index.php/login((/a))
+            </condition> 
+            <condition name="pmdk" value = "skl"> 
+            Jalur PMDK SKL merupakan jalur tanpa tes untuk program studi selain kedokteran, farmasi dan psikologi, yaitu dengan menggunakan nilai SKL, berkas persyaratan jalur PMDK SKL sebagai berikut : ((br))((br))
+            1. Pas foto berwarna berpakaian formal((br))
+            2. Kartu Keluarga((br))
+            3. SKL((br))
+            4. Bukti bayar pendaftaran((br))((br))
+            *persyaratan di atas silakan dilengkapi dan dikumpulkan di akun
+            pmb online, yang dapat diakses di ((a href="https://pmb-online.uad.ac.id/index.php/login" target="_blank"))https://pmb-online.uad.ac.id/index.php/login((/a))
+            </condition> 
+            <condition name="pmdk" value = "utbk"> 
+            Jalur PMDK UTBK merupakan jalur tanpa tes untuk program studi selain kedokteran, farmasi dan psikologi, yaitu dengan menggunakan nilai sertifikat  UTBK, berkas persyaratan jalur PMDK UTBK sebagai berikut : ((br))((br))
+            1. Pas foto berwarna berpakaian formal((br))
+            2. Kartu Keluarga((br))
+            3. Sertif UTBK((br))
+            4. Bukti bayar pendaftaran((br))((br))
+            *persyaratan di atas silakan dilengkapi dan dikumpulkan di akun 
+             pmb online, yang dapat diakses di ((a href="https://pmb-online.uad.ac.id/index.php/login" target="_blank"))https://pmb-online.uad.ac.id/index.php/login((/a))
+            </condition>
+        </template>
+    </category>
+</aiml>

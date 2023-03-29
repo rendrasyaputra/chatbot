@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0"> 
+    <category>
+        <pattern>JALUR PSB *</pattern>
+        <template>
+        <think><set name="jalur"><star/></set></think>
+        <condition name="jalur" value="farmasi">
+        Jalur PSB Farmasi merupakan jalur tanpa tes untuk program studi farmasi, jalur ini di peruntukkan bagi siswa yang berasal dari 
+        SMA/MA IPA atau SMK Farmasi dengan menggunakan nilai rapor, SKL/SKHUN, Sertifikat UTBK.
+        </condition>
+        <condition name="jalur" value="psikologi">
+        Jalur PSB Psikologi merupakan jalur tanpa tes untuk program studi psikologi, jalur ini di peruntukkan bagi siswa yang berasal dari 
+        SMA/MA/SMK dengan menggunakan nilai rapor, SKL/SKHUN, Sertifikat UTBK.
+        </condition>
+        <condition name="jalur" value="dokter">
+        Jalur PSB Kedokteran merupakan jalur tanpa tes untuk program studi kedokteran, jalur ini di peruntukkan bagi siswa yang berasal dari 
+        SMA/MA IPA dengan menggunakan nilai rapor, SKL/SKHUN, Sertifikat UTBK.
+        </condition>
+        </template>
+    </category>
+    <category>
+        <pattern>SYARAT DAFTAR JALUR PSB RAPOR *</pattern>
+        <template>
+            <think> <set name="psb"><star/></set></think>
+        
+            <condition name="psb" value="farmasi">
+            Jalur PSB Rapor Farmasi merupakan jalur tanpa tes untuk program studi farmasi, jalur ini di peruntukkan bagi siswa yang berasal dari SMA/MA IPA atau SMK Farmasi dengan menggunakan nilai rapor, 
+            berkas persyaratan jalur PSB Rapor Farmasi sebagai berikut : ((br))((br))
+            1. Siswa kelas XII yang akan lulus pada tahun 2023 atau lulusan tahun 2021, 2022, 2023 ((br))
+            2. Pas foto berwarna berpakaian formal((br))
+            3. Kartu Keluarga((br))
+            4. Rapor Semester 2,3,4 ((br))
+            5. Tidak buta warna ((br))
+            6. Bukti bayar pendaftaran((br))((br))
+            Syarat nilai dan mata pelajaran :((br))
+            1. Bagi siswa SMA/MA IPA Rata rata nilai pengetahuan 80 untuk mata pelajaran (Matematika, Biologi, Kimia) bagi siswa SMA((br))
+            2. Bagi siswa SMK Farmasi Rata rata nilai pengetahuan 80 untuk mata pelajaran (Matematika, Kimia Farmasi, Farmasetika, Farmakognosi, Farmakologi).((br))((br))
+            *persyaratan di atas silakan dilengkapi dan dikumpulkan di akun 
+             pmb online, yang dapat diakses di ((a href="https://pmb-online.uad.ac.id/index.php/login" target="_blank"))https://pmb-online.uad.ac.id/index.php/login((/a))
+            </condition>
+            <condition name="psb" value="psikologi">
+            Jalur PSB Rapor Psikologi merupakan jalur tanpa tes untuk program studi psikologi, jalur ini di peruntukkan bagi siswa yang berasal dari SMA/MA/SMK dengan menggunakan nilai rapor, 
+            berkas persyaratan jalur PSB Rapor Psikologi sebagai berikut : ((br))((br))
+            1. Siswa kelas XII yang akan lulus pada tahun 2023 atau lulusan tahun 2021, 2022, 2023 ((br))
+            2. Pas foto berwarna berpakaian formal((br))
+            3. Kartu Keluarga((br)) 
+            4. Rapor Semester 2,3,4 ((br))
+            5. Tidak buta warna ((br))
+            6. Bukti bayar pendaftaran((br))((br))
+            Syarat nilai dan mata pelajaran :((br))
+            1. Rata rata nilai pengetahuan 80 untuk mata pelajaran (Matematika, Bahasa Inggris, Bahasa Indonesia) ((br))((br))
+            ((b))*persyaratan di atas silakan dilengkapi dan dikumpulkan di akun ((/b))
+             pmb online, yang dapat diakses di ((a href="https://pmb-online.uad.ac.id/index.php/login" target="_blank"))https://pmb-online.uad.ac.id/index.php/login((/a))
+            </condition>
+             <condition name="psb" value="dokter">
+            Jalur PSB Rapor Kedokteran merupakan jalur tanpa tes untuk program studi Kedokteran, jalur ini di peruntukkan 
+            bagi siswa yang berasal dari SMA/MA IPA dengan menggunakan nilai akademik dan atau prestasi kejuaraan yang didapatkan 
+            pada tingkat SMA, berkas persyaratan jalur PSB Rapor Kedokteran sebagai berikut : ((br))((br))
+            1. Siswa kelas XII yang akan lulus pada tahun 2023 atau lulusan tahun 2021, 2022, 2023 ((br))
+            2. Berasal dari jurusan SMA/MA IPA ((br))
+            3. Pas foto berwarna berpakaian formal((br))
+            4. Kartu Keluarga((br))
+            5. Rapor Semester 1-5 ((br))
+            6. Sertifikat Kejuaran (jika ada) ((br))
+            7. Wajib asrama 1 tahun pertama((br))
+            8. Bukti bayar pendaftaran((br))((br))
+            Syarat nilai dan mata pelajaran :((br))
+            1. Nilai mata pelajaran yang digunakan adalah Matematika, Kimia, Biologi, Bahasa Inggris, dengan jumlah minimal nilai rata-rata mata pelajaran 80. ((br))((br))
+             *Selanjutnya akan dilakukan pemeriksaan kesehatan meliputi cek tidak buta warna, bebas narkoba, sehat jasmani, sehat jiwa, untuk  
+             pendaftar yang lolos ke tahap wawancara((br))
+            *persyaratan di atas silakan dilengkapi dan dikumpulkan di akun 
+             pmb online, yang dapat diakses di ((a href="https://pmb-online.uad.ac.id/index.php/login" target="_blank"))https://pmb-online.uad.ac.id/index.php/login((/a))
+            </condition>
+        </template>
+    </category>
+    <category>
+        <pattern>SYARAT DAFTAR JALUR PSB UTBK *</pattern>
+        <template>
+            <think> <set name="utbk"><star/></set></think>
+        
+            <condition name="utbk" value="farmasi">
+            Jalur PSB UTBK Farmasi merupakan jalur tanpa tes untuk program studi farmasi, jalur ini di peruntukkan 
+            bagi siswa yang berasal dari SMA/MA IPA atau SMK Farmasi dengan menggunakan nilai UTBK, 
+            berkas persyaratan jalur PSB UTBK Farmasi sebagai berikut : ((br))((br))
+            1. Siswa kelas XII yang akan lulus pada tahun 2023 atau lulusan tahun 2021, 2022, 2023((br))
+            2. Berasal dari SMA/MA IPA
+            2. Minimal nilai rata-rata UTBK 500((br))
+            3. Pasfoto berwarna terbaru berpakaian formal((br))
+            4. Kartu Keluarga((br))
+            5. Sertifikat nilai UTBK asli tahun 2022 atau 2023((br))
+            6. Rapor semester 3 (kelas XI semster 1)((br))
+            7. Tidak buta warna((br))
+            8. Bukti bayar pendaftaran((br))((br))
+            *persyaratan di atas silakan dilengkapi dan dikumpulkan di akun 
+             pmb online, yang dapat diakses di ((a href="https://pmb-online.uad.ac.id/index.php/login" target="_blank"))https://pmb-online.uad.ac.id/index.php/login((/a))
+            </condition>
+            <condition name="utbk" value="psikologi">
+            Jalur PSB UTBK Psikologi merupakan jalur tanpa tes untuk program studi psikologi, jalur ini di peruntukkan 
+            bagi siswa yang berasal dari SMA/MA/SMK dengan menggunakan nilai UTBK, 
+            berkas persyaratan jalur PSB UTBK Psikologi sebagai berikut : ((br))((br))
+            1. Siswa kelas XII yang akan lulus pada tahun 2023 atau lulusan tahun 2021, 2022, 2023((br))
+            2. Berasal dari SMA/MA IPA, IPS, atau SMK
+            2. Minimal nilai rata-rata UTBK 500((br))
+            3. Pasfoto berwarna terbaru berpakaian formal((br))
+            4. Kartu Keluarga((br))
+            5. Sertifikat nilai UTBK asli tahun 2022 atau 2023((br))
+            6. Rapor semester 3 (kelas XI semster 1)((br))
+            7. Tidak buta warna((br))
+            8. Bukti bayar pendaftaran((br))((br))
+            *persyaratan di atas silakan dilengkapi dan dikumpulkan di akun 
+             pmb online, yang dapat diakses di ((a href="https://pmb-online.uad.ac.id/index.php/login" target="_blank"))https://pmb-online.uad.ac.id/index.php/login((/a))
+            </condition>
+            <condition name="utbk" value="dokter">
+            Jalur PSB UTBK Kedokteran merupakan jalur tanpa tes untuk program studi kedokteran, jalur ini di peruntukkan 
+            bagi siswa yang berasal dari SMA/MA IPA dengan menggunakan nilai UTBK, 
+            berkas persyaratan jalur PSB UTBK Kedokteran sebagai berikut : ((br))((br))
+            1. Siswa kelas XII yang akan lulus pada tahun 2023 atau lulusan tahun 2021, 2022, 2023((br))
+            2. Berasal dari SMA/MA IPA
+            2. Minimal nilai rata-rata UTBK 500((br))
+            3. Pasfoto berwarna terbaru berpakaian formal((br))
+            4. Kartu Keluarga((br))
+            5. Sertifikat nilai UTBK asli tahun 2022 atau 2023((br))
+            6. Rapor semester 3 (kelas XI semster 1)((br))
+            7. Sertifikat Kejuaran (jika ada)((br))
+            8. Wajib asrama 1 tahun pertama ((br))
+            9. Bukti bayar pendaftaran((br))((br))
+            *Selanjutnya Akan dilakukan pemeriksaan kesehatan meliputi cek tidak buta warna, bebas narkoba, sehat jasmani, sehat jiwa, 
+            untuk  pendaftar yang lolos ke tahap wawancara ((br))
+            *persyaratan di atas silakan dilengkapi dan dikumpulkan di akun 
+             pmb online, yang dapat diakses di ((a href="https://pmb-online.uad.ac.id/index.php/login" target="_blank"))https://pmb-online.uad.ac.id/index.php/login((/a))
+            </condition>
+        </template>
+    </category>
+</aiml>

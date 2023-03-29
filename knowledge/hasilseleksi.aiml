@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0"> 
+    <category>
+        <pattern>LIHAT HASIL SELEKSI</pattern>
+        <template>Cara melihat hasil seleksi : ((br))
+        1.	Login ke akun pendaftaran kamu di ((a href="https://pmb-online.uad.ac.id" target="_blank"))https://pmb-online.uad.ac.id((/a)) ((br))
+        2.	Pilih menu hasil seleksi((br))
+        3.	Masukkan nomor pendaftaran ((br))
+        Kemudian akan muncul hasil seleksi
+        </template>
+    </category>
+    <category>
+        <pattern>LIHAT HASIL SELEKSI MAHASISWA</pattern>
+        <template>Cara melihat hasil seleksi : ((br))
+        1.	Login ke akun pendaftaran kamu di ((a href="https://pmb-online.uad.ac.id" target="_blank"))https://pmb-online.uad.ac.id((/a)) ((br))
+        2.	Pilih menu hasil seleksi((br))
+        3.	Masukkan nomor pendaftaran ((br))
+        Kemudian akan muncul hasil seleksi
+        </template>
+    </category>
+</aiml>

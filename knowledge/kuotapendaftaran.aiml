@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0"> 
+    <category>
+        <pattern>KUOTA DAFTAR MAHASISWA</pattern>
+        <template>Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia.</template>
+    </category>
+    <category>
+        <pattern>KUOTA DAFTAR MABA</pattern>
+        <template>Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia.</template>
+    </category>
+    <category>
+        <pattern>KUOTA DAFTAR PROGRAM STUDI *</pattern>
+        <template>
+        <think> <set name="program"><star/></set></think>
+
+        <condition name="program" value = "informatika">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "teknik industri">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "teknik kimia">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "teknik elektro">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "teknologi pangan">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "ilmu komunikasi">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia.</condition>
+        <condition name="program" value = "sastra inggris"> Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia.</condition>
+        <condition name="program" value = "sastra indonesia">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "fisika">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "biologi">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "matematika">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "sistem informasi">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "konseling">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "bahasa sastra indonesia">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "bahasa inggris">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "guru sekolah dasar">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "paud">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "pancasia kewarganegaraan">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "vokasional teknologi otomotif">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "vokasional teknologi elektronika">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "sehat masyarakat">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "gizi">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "dokter">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "psikologi">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "manajemen">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "ekonomi bangun">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "akuntansi">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "bisnis jasa makanan">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "perbankan syariah">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "ilmu hadis">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="program" value = "bahasa sastra arab">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        </template>
+    </category>
+    <category>
+        <pattern>KUOTA DAFTAR PRODI *</pattern>
+        <template>
+        <think> <set name="prodi"><star/></set></think>
+
+        <condition name="prodi" value = "informatika">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "teknik industri">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "teknik kimia">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "teknik elektro">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "teknologi pangan">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "ilmu komunikasi">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia.</condition>
+        <condition name="prodi" value = "sastra inggris"> Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia.</condition>
+        <condition name="prodi" value = "sastra indonesia">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "fisika">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "biologi">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "matematika">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "sistem informasi">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "konseling">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "bahasa sastra indonesia">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "bahasa inggris">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "guru sekolah dasar">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "paud">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "pancasia kewarganegaraan">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "vokasional teknologi otomotif">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "vokasional teknologi elektronika">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "sehat masyarakat">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "gizi">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "dokter">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "psikologi">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "manajemen">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "ekonomi bangun">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "akuntansi">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "bisnis jasa makanan">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "perbankan syariah">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "ilmu hadis">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="prodi" value = "bahasa sastra arab">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        </template>
+    </category>
+    <category>
+        <pattern>KUOTA DAFTAR JURUS *</pattern>
+        <template>
+        <think> <set name="jurusan"><star/></set></think>
+
+        <condition name="jurusan" value = "informatika">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "teknik industri">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "teknik kimia">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "teknik elektro">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "teknologi pangan">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "ilmu komunikasi">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia.</condition>
+        <condition name="jurusan" value = "sastra inggris"> Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia.</condition>
+        <condition name="jurusan" value = "sastra indonesia">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "fisika">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "biologi">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "matematika">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "sistem informasi">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "konseling">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "bahasa sastra indonesia">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "bahasa inggris">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "guru sekolah dasar">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "paud">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "pancasia kewarganegaraan">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "vokasional teknologi otomotif">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "vokasional teknologi elektronika">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "sehat masyarakat">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "gizi">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "dokter">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "psikologi">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "manajemen">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "ekonomi bangun">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "akuntansi">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "bisnis jasa makanan">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "perbankan syariah">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "ilmu hadis">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        <condition name="jurusan" value = "bahasa sastra arab">Selama jalur pendaftaran dan prodinya masih dibuka artinya kuotanya masih tersedia. </condition>
+        </template>
+    </category>
+</aiml>

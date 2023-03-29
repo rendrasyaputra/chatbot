@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0"> 
+<category>
+        <pattern>JALUR BEBAS TES MAHASISWA</pattern>
+        <template>Ada kak, jadi jalur bebas tes merupakan salah satu jalur penerimaan mahasiswa baru tanpa adanya tes, hanya menggunakan nilai rapor semester 2,3,4 , 
+        skhun/skl dengan nilai minimal 75 dan 80 untuk program studi tertentu.</template>
+    </category>
+    <category>
+        <pattern>JALUR BEBAS TES MABA</pattern>
+        <template>Ada kak, jadi jalur bebas tes merupakan salah satu jalur penerimaan mahasiswa baru tanpa adanya tes, 
+        hanya menggunakan nilai rapor semester 2,3,4 , skhun/sk dengan nilai minimal 75 dan 80 untuk program studi tertentu.</template>
+    </category>
+    <category>
+        <pattern>JALUR BEBAS TES MAHASISWA</pattern>
+        <template>Ada kak, jadi jalur bebas tes merupakan salah satu jalur penerimaan mahasiswa baru tanpa adanya tes, 
+        hanya menggunakan nilai rapor semester 2,3,4 , skhun/sk dengan nilai minimal 75 dan 80 untuk program studi tertentu.</template>
+    </category>
+    <category>
+        <pattern>JALUR BEBAS TES MABA</pattern>
+        <template>Ada kak, jadi jalur bebas tes merupakan salah satu jalur penerimaan mahasiswa baru tanpa adanya tes, 
+        hanya menggunakan nilai rapor semester 2,3,4 , skhun/sk dengan nilai minimal 75 dan 80 untuk program studi tertentu.</template>
+    </category>
+</aiml>

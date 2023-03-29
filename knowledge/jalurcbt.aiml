@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0"> 
+    <category>
+        <pattern>JALUR CBT</pattern>
+        <template>Jalur CBT merupakan jalur penerimaan mahasiswa baru UAD dengan tes berbasis komputer yang dilaksanakan dengan 
+        mendatangi langsung loket pelayanan PMB di lantai 2 kampus utama UAD, jalur CBT terbagi menjadi dua yaitu CBT reguler dan CBT Kedokteran.
+        </template>
+    </category>
+    <category>
+        <pattern>SYARAT JALUR CBT</pattern>
+        <template>
+        1. Pas foto berwarna berpakaian formal((br))
+        2. Kartu Keluarga((br))
+        3. Rapor Semester 3((br))
+        4. Bukti Bayar Pendaftaran((br))
+        *persyaratan diatas silakan dilengkapi dan dikumpulkan di akun 
+        pmb online, yang dapat di akses di ((a href="https://pmb-online.uad.ac.id/index.php/login" target="_blank"))https://pmb-online.uad.ac.id/index.php/login((/a))
+        </template>
+    </category>
+    <category>
+        <pattern>SYARAT DAFTAR JALUR CBT</pattern>
+        <template>
+        1. Pas foto berwarna berpakaian formal((br))
+        2. Kartu Keluarga((br))
+        3. Rapor Semester 3((br))
+        4. Bukti Bayar Pendaftaran((br))
+        *persyaratan diatas silakan dilengkapi dan dikumpulkan di akun 
+        pmb online, yang dapat di akses di ((a href="https://pmb-online.uad.ac.id/index.php/login" target="_blank"))https://pmb-online.uad.ac.id/index.php/login((/a))
+        </template>
+    </category>
+    <category>
+        <pattern>SYARAT JALUR CBT DOKTER</pattern>
+        <template>Jalur CBT Kedokteran merupakan jalur penerimaan mahasiswa baru UAD dengan tes berbasis komputer yang dilaksanakan dengan 
+        mendatangi langsung loket pelayanan PMB di lantai 2 kampus utama UAD. Syarat untuk CBT Kedokteran sebagai berikut :((br))((br))  
+        1. Siswa kelas XII yang akan lulus pada tahun 2023 atau lulusan tahun 2021, 2022 atau 2023((br))
+        2. Berasal dari jurusan SMA/MA IPA((br))
+        3. Kartu Keluarga((br))
+        4. Rapor semester 3 atau ijazah/SKL (jika sudah ada)((br))
+        5. Bukti Bayar Pendaftaran((br))
+        6. Wajib asrama PERSADA UAD 1 tahun pertama (jika diterima) ((br))
+        *persyaratan diatas silakan dilengkapi dan dikumpulkan di akun 
+        pmb online, yang dapat di akses di ((a href="https://pmb-online.uad.ac.id/index.php/login" target="_blank"))https://pmb-online.uad.ac.id/index.php/login((/a))((br))
+        *Selanjutnya akan dilakukan pemeriksaan kesehatan meliputi cek tidak buta warna, bebas narkoba, sehat jasmani, sehat jiwa, untuk  
+        pendaftar yang lolos ke tahap wawancara
+        </template>
+    </category>
+    <category>
+        <pattern>SYARAT DAFTAR CBT DOKTER</pattern>
+        <template>JJalur CBT Kedokteran merupakan jalur penerimaan mahasiswa baru UAD dengan tes berbasis komputer yang dilaksanakan dengan 
+        mendatangi langsung loket pelayanan PMB di lantai 2 kampus utama UAD. Syarat untuk CBT Kedokteran sebagai berikut :((br))((br))  
+        1. Siswa kelas XII yang akan lulus pada tahun 2023 atau lulusan tahun 2021, 2022 atau 2023((br))
+        2. Berasal dari jurusan SMA/MA IPA((br))
+        3. Kartu Keluarga((br))
+        4. Rapor semester 3 atau ijazah/SKL (jika sudah ada)((br))
+        5. Bukti Bayar Pendaftaran((br))
+        6. Wajib asrama PERSADA UAD 1 tahun pertama (jika diterima)((br))
+        *persyaratan diatas silakan dilengkapi dan dikumpulkan di akun 
+        pmb online, yang dapat di akses di ((a href="https://pmb-online.uad.ac.id/index.php/login" target="_blank"))https://pmb-online.uad.ac.id/index.php/login((/a))((br))
+        *Selanjutnya akan dilakukan pemeriksaan kesehatan meliputi cek tidak buta warna, bebas narkoba, sehat jasmani, sehat jiwa, untuk  
+        pendaftar yang lolos ke tahap wawancara
+        </template>
+    </category>
+</aiml>

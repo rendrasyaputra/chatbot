@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>* BERKAS MAHASISWA</pattern>
+        <template>
+        <think> <set name="berkas"><star/></set></think>
+        <condition name="berkas" value="verifikasi">
+        Agar berkas kamu diverifikasi oleh petugas PMB, kamu harus melengkapi berkas pendaftaran yang ada di web pmb-online, 
+        yang dapat di akses di ((a href="https://pmb-online.uad.ac.id/index.php/login"))https://pmb-online.uad.ac.id/index.php/login((/a)), jika sudah lengkap maka akan segera diverifikasi oleh 
+        petugas PMB. Atau bisa datang langsung untuk menyerahkan berkas pendaftaran ke loket pelayanan PMB di kampus utama UAD 
+        lantai 2 untuk diverifikasi oleh petugas PMB.
+        </condition>
+        <condition name="berkas" value="registrasi">
+        Agar berkas kamu diregistrasi oleh petugas PMB, kamu harus mengupload bukti bayar registrasi yang di peroleh dari bank tempat 
+        kamu membayar registrasi dan Berkas Registrasi lain seperti : Ijazah, Surat Pernyataan Mahasiswa Baru, yang di unggah di web pmb-online, 
+        yang dapat di akses di ((a href="https://pmb-online.uad.ac.id/index.php/login"))https://pmb-online.uad.ac.id/index.php/login((/a)),  Atau bisa datang langsung untuk menyerahkan berkas registrasi ke 
+        loket pelayanan PMB di kampus utama UAD lantai 2 untuk diregistrasi oleh petugas PMB.
+        </condition>
+        </template>
+    </category>
+     <category>
+        <pattern>BERKAS *</pattern>
+        <template>
+        <think> <set name="berkas"><star/></set></think>
+        <condition name="berkas" value="verifikasi">
+        Agar berkas kamu diverifikasi oleh petugas PMB, kamu harus melengkapi berkas pendaftaran yang ada di web pmb-online, 
+        yang dapat di akses di ((a href="https://pmb-online.uad.ac.id/index.php/login" target="_blank"))https://pmb-online.uad.ac.id/index.php/login((/a)), jika sudah lengkap maka akan segera diverifikasi oleh 
+        petugas PMB. Atau bisa datang langsung untuk menyerahkan berkas pendaftaran ke loket pelayanan PMB di kampus utama UAD 
+        lantai 2 untuk diverifikasi oleh petugas PMB.
+        </condition>
+        <condition name="berkas" value="registrasi">
+        Agar berkas kamu diregistrasi oleh petugas PMB, kamu harus mengupload bukti bayar registrasi yang di peroleh dari bank tempat 
+        kamu membayar registrasi dan Berkas Registrasi lain seperti : Ijazah, Surat Pernyataan Mahasiswa Baru, yang di unggah di web pmb-online, 
+        yang dapat di akses di ((a href="https://pmb-online.uad.ac.id/index.php/login" target="_blank"))https://pmb-online.uad.ac.id/index.php/login((/a)),  Atau bisa datang langsung untuk menyerahkan berkas registrasi ke 
+        loket pelayanan PMB di kampus utama UAD lantai 2 untuk diregistrasi oleh petugas PMB.
+        </condition>
+        </template>
+    </category>
+    <category>
+        <pattern>PROSES VERIFIKASI BERKAS DAFTAR</pattern>
+        <template>Proses verifikasi dan registrasi berkas maksimal 2x24 jam jika berkas kamu tidak bermasalah, 
+        informasi telah di verifikasi dan registrasi nanti akan di infokan melalui WhatsApp dan akun pendaftaran, 
+        jadi silakan cek secara berkala akun pendaftaran kamu.
+        </template>
+    </category>
+    <category>
+        <pattern>PROSES REGISTRASI BERKAS DAFTAR</pattern>
+        <template>Proses verifikasi dan registrasi berkas maksimal 2x24 jam jika berkas kamu tidak bermasalah, 
+        informasi telah di verifikasi dan registrasi nanti akan di infokan melalui WhatsApp dan akun pendaftaran, 
+        jadi silakan cek secara berkala akun pendaftaran kamu.
+        </template>
+    </category>
+    <category>
+        <pattern>PROSES VERIFIKASI REGISTRASI BERKAS DAFTAR</pattern>
+        <template>Proses verifikasi dan registrasi berkas maksimal 2x24 jam jika berkas kamu tidak bermasalah, 
+        informasi telah di verifikasi dan registrasi nanti akan di infokan melalui WhatsApp dan akun pendaftaran, 
+        jadi silakan cek secara berkala akun pendaftaran kamu.
+        </template>
+    </category>
+    <category>
+        <pattern>INFORMASI KEGIATAN SETELAH REGISTRASI ULANG</pattern>
+        <template>Setelah registrasi ulang mahasiswa baru dapat mengambil bukti registrasi di loket pelayanan 
+        PMB UAD di Kampus Utama UAD lantai 2, setelah itu dapat langsung mengambil jas almamater UAD dan 
+        mengikuti kegiatan prakuliah.
+        </template>
+    </category>
+</aiml>

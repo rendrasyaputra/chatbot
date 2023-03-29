@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0"> 
+    <category>
+        <pattern>BIAYA KULIAH MAHASISWA</pattern>
+        <template>Rincian biaya kuliah UAD dapat dilihat di ((a href="https://pmb.uad.ac.id/biaya-kuliah/" target="_blank"))https://pmb.uad.ac.id/biaya-kuliah/((/a))</template>
+    </category>
+    <category>
+        <pattern>BIAYA KULIAH MABA</pattern>
+        <template>Rincian biaya kuliah UAD dapat dilihat di ((a href="https://pmb.uad.ac.id/biaya-kuliah/" target="_blank"))https://pmb.uad.ac.id/biaya-kuliah/((/a))</template>
+    </category>
+    <category>
+        <pattern>BIAYA DAFTAR MAHASISWA</pattern>
+        <template>Biaya pendaftaran sebesar Rp. 250.000 untuk prodi selain kedokteran untuk biaya 
+        pendaftaran prodi kedokteran sebesar Rp. 500.000, dibayarkan melalui bank rekanan UAD yang dapat 
+        di lihat di ((a href="https://pmb.uad.ac.id/cara-bayar/" target="_blank"))https://pmb.uad.ac.id/cara-bayar/((/a))
+        </template>
+    </category>
+    <category>
+        <pattern>BIAYA DAFTAR MABA</pattern>
+        <template>Biaya pendaftaran sebesar Rp. 250.000 untuk prodi selain kedokteran untuk biaya 
+        pendaftaran prodi kedokteran sebesar Rp. 500.000, dibayarkan melalui bank rekanan UAD yang dapat 
+        di lihat di ((a href="https://pmb.uad.ac.id/cara-bayar/" target="_blank"))https://pmb.uad.ac.id/cara-bayar/((/a))
+        </template>
+    </category>
+    <category>
+        <pattern>BIAYA REGISTRASI MAHASISWA</pattern>
+        <template>Biaya registrasi ulang dibayarkan sebesar 50% dari biaya SPP semester 1.</template>
+    </category>
+    <category>
+        <pattern>BIAYA REGISTRASI MABA</pattern>
+        <template>Biaya registrasi ulang dibayarkan sebesar 50% dari biaya SPP semester 1.</template>
+    </category>
+    <category>
+        <pattern>BIAYA REGISTRASI ULANG MAHASISWA</pattern>
+        <template>Biaya registrasi ulang dibayarkan sebesar 50% dari biaya SPP semester 1.</template>
+    </category>
+    <category>
+        <pattern>BIAYA REGISTRASI ULANG MABA</pattern>
+        <template>Biaya registrasi ulang dibayarkan sebesar 50% dari biaya SPP semester 1.</template>
+    </category>
+</aiml>

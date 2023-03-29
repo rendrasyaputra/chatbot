@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0"> 
+    <category>
+        <pattern>JALUR DAFTAR MAHASISWA</pattern>
+        <template>Untuk jalur pendaftaran mahasiswa baru UAD ada 2 jenis ya : ((br))((/br))
+        1. Jalur bebas tes yaitu seleksi menggunakan nilai Rapor dan Surat Keterangan Lulus (SKL) dengan minimal nilai 75 dan 80 yang dapat dilihat di ((a href="https://pmb.uad.ac.id/persyaratan-pmdk/" target="_blank"))https://pmb.uad.ac.id/persyaratan-pmdk/((/a)) ((br))((/br))
+        2. Jalur tes yaitu seleksi melalui tes Computer Based Test (CBT) yang dilaksanakan dengan datang langsung ke Loket Pelayanan PMB UAD di Kampus Utama UAD lantai 2.
+        </template>
+    </category>
+    <category>
+        <pattern>JALUR DAFTAR MABA</pattern>
+        <template>Jalur pendaftaran mahasiswa baru UAD ada 2 jenis : ((br))((/br))  
+        1. Jalur bebas tes yaitu seleksi menggunakan nilai Rapor dan Surat Keterangan Lulus (SKL) dengan minimal nilai 75 dan 80 yang dapat dilihat di ((a href="https://pmb.uad.ac.id/persyaratan-pmdk/" target="_blank"))https://pmb.uad.ac.id/persyaratan-pmdk/((/a)) ((br))((/br))
+        2. Jalur tes yaitu seleksi melalui tes Computer Based Test (CBT) yang dilaksanakan dengan datang langsung ke Loket Pelayanan PMB UAD di Kampus Utama UAD lantai 2.
+        </template>
+    </category>
+    <category>
+        <pattern>ALUR DAFTAR MAHASISWA</pattern>
+        <template>
+        1. Membuat akun pendaftaran di web ((a href="https://pmb-online.uad.ac.id" target="_blank"))https://pmb-online.uad.ac.id((/a)) ((br))
+        2. Memilih jalur pendaftaran dan mengisi data diri pendaftaran ((br))
+        3. Mengupload berkas pendaftaran ((br))
+        4. Membayar formulir pendaftaran ((br))
+        5. Menunggu proses verifikasi dan seleksi oleh petugas PMB UAD. ((br))
+        6. Lulus di prodi pilihan calon mahasiswa. ((br))
+        7. Membayar biaya registrasi ulang. ((br))
+        8. Proses registrasi oleh petugas PMB UAD. ((br))
+        9. Resmi menjadi mahasiswa UAD dan mengikuti kegiatan prakuliah.((br))
+        informasi prakuliah bisa dilihat disini ya ((a href="https://pmb.uad.ac.id/kegiatan-pra-kuliah/" target="_blank"))https://pmb.uad.ac.id/kegiatan-pra-kuliah/((/a))
+        </template>
+    </category>
+    <category>
+        <pattern>ALUR DAFTAR MABA</pattern>
+        <template>
+        1. Membuat akun pendaftaran di web ((a href="https://pmb-online.uad.ac.id" target="_blank"))https://pmb-online.uad.ac.id((/a)) ((br))
+        2. Memilih jalur pendaftaran dan mengisi data diri pendaftaran ((br))
+        3. Mengupload berkas pendaftaran ((br))
+        4. Membayar formulir pendaftaran ((br))
+        5. Menunggu proses verifikasi dan seleksi oleh petugas PMB UAD. ((br))
+        6. Lulus di prodi pilihan calon mahasiswa. ((br))
+        7. Membayar biaya registrasi ulang. ((br))
+        8. Proses registrasi oleh petugas PMB UAD. ((br))
+        9. Resmi menjadi mahasiswa UAD dan mengikuti kegiatan prakuliah.((br))
+        informasi prakuliah bisa dilihat disini ya ((a href="https://pmb.uad.ac.id/kegiatan-pra-kuliah/" target="_blank"))https://pmb.uad.ac.id/kegiatan-pra-kuliah/((/a))
+        </template>
+    </category>
+</aiml>
