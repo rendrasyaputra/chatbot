@@ -7,6 +7,5 @@ Chabot Berbasis AIML menggunakan NLP agar chatbot dapat menerima bahasa alami ma
 # Library
 - pip
 - sastrawi
-- nltk
 - aiml
 - flask
